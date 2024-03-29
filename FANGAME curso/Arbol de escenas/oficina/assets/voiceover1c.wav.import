@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cnk0ljh2v7k0p"
+path="res://.godot/imported/voiceover1c.wav-61d388a04f1d1661fa140bec545d0dcc.sample"
+
+[deps]
+
+source_file="res://Arbol de escenas/oficina/assets/voiceover1c.wav"
+dest_files=["res://.godot/imported/voiceover1c.wav-61d388a04f1d1661fa140bec545d0dcc.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

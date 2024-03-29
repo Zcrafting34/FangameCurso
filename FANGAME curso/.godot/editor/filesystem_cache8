@@ -1,0 +1,344 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1711664907
+default_bus_layout.tres::AudioBusLayout::4308947249710146037::1704147738::0::1::::<><>::
+icon.svg::CompressedTexture2D::4639077752786022990::1702444821::1702444843::1::::<><>::
+::res://Arbol de escenas/::1705195341
+::res://Arbol de escenas/menu/::1711510637
+Menu.gd::GDScript::-1::1704165993::0::1::::<>Node2D<>::
+menu.tscn::PackedScene::4655393076428886911::1711510637::0::1::::<><>::res://Arbol de escenas/menu/Menu.gd<>uid://cnwjflgknux4j::::res://Arbol de escenas/menu/asets/2-MENU_TWITCHING/1.png<>uid://dqrnvcoo1y8ls::::res://Arbol de escenas/menu/asets/2-MENU_TWITCHING/2.png<>uid://50kx7kg0i6ob::::res://Arbol de escenas/menu/asets/2-MENU_TWITCHING/3.png<>uid://bfmesojicf2da::::res://Arbol de escenas/menu/asets/2-MENU_TWITCHING/4.png<>uid://ddlhr5ejcchpf::::res://Arbol de escenas/oficina/monitor/estatica.tscn<>uid://pa53p4gw75bo::::res://Arbol de escenas/menu/asets/1-MAIN_TEXT/BUTTON01.png<>uid://djc00c3nycy41::::res://Arbol de escenas/menu/asets/1-MAIN_TEXT/BUTTON02.png<>uid://d4lgocler1taj::::res://Arbol de escenas/menu/asets/1-MAIN_TEXT/SET_.png<>uid://cevahwye1lqf1::::res://Arbol de escenas/menu/asets/darkness music.wav
+::res://Arbol de escenas/menu/asets/::1703628699
+darkness music.wav::AudioStreamWAV::5096962368136867836::1703628590::1703628699::1::::<><>::
+::res://Arbol de escenas/menu/asets/0-STATIC/::1703624807
+1.png::CompressedTexture2D::3210006358831840257::1703624805::1703624806::1::::<><>::
+2.png::CompressedTexture2D::544220295130423376::1703624805::1703624806::1::::<><>::
+3.png::CompressedTexture2D::5952341862431113786::1703624805::1703624806::1::::<><>::
+4.png::CompressedTexture2D::1778305277845487313::1703624805::1703624806::1::::<><>::
+5.png::CompressedTexture2D::6436323378659579326::1703624805::1703624806::1::::<><>::
+6.png::CompressedTexture2D::2923645180322874722::1703624805::1703624806::1::::<><>::
+7.png::CompressedTexture2D::5363999316642680025::1703624805::1703624806::1::::<><>::
+8.png::CompressedTexture2D::5978081854466325039::1703624805::1703624807::1::::<><>::
+::res://Arbol de escenas/menu/asets/1-MAIN_TEXT/::1703624813
+BUTTON01.png::CompressedTexture2D::1054704999535701384::1703624812::1703624813::1::::<><>::
+BUTTON02.png::CompressedTexture2D::7796653117920562052::1703624812::1703624813::1::::<><>::
+CREDIT.png::CompressedTexture2D::1021398247830686771::1703624812::1703624813::1::::<><>::
+CUSTOM_NIGHT.png::CompressedTexture2D::7273859007285407516::1703624812::1703624813::1::::<><>::
+DEMO.png::CompressedTexture2D::6182355164262037024::1703624812::1703624813::1::::<><>::
+DEMO_THANK YOU.png::CompressedTexture2D::7527788069823545262::1703624812::1703624813::1::::<><>::
+DIFFICULTY_GUIDE.png::CompressedTexture2D::2107340983538963104::1703624812::1703624813::1::::<><>::
+GAME_TITLE.png::CompressedTexture2D::7568772280144290239::1703624812::1703624813::1::::<><>::
+SET_.png::CompressedTexture2D::9217836097193219317::1703624812::1703624813::1::::<><>::
+SIXTH_NIGHT.png::CompressedTexture2D::1866368076954282129::1703624812::1703624813::1::::<><>::
+STAR.png::CompressedTexture2D::2692549768696845929::1703624812::1703624813::1::::<><>::
+VERSION.png::CompressedTexture2D::8774036072164329308::1703624812::1703624813::1::::<><>::
+WARNING.png::CompressedTexture2D::7238982816159336453::1703624812::1703624813::1::::<><>::
+::res://Arbol de escenas/menu/asets/2-MENU_TWITCHING/::1703624818
+1.png::CompressedTexture2D::5731268614672579183::1703624817::1703624818::1::::<><>::
+2.png::CompressedTexture2D::8318204921030588972::1703624817::1703624818::1::::<><>::
+3.png::CompressedTexture2D::2157924692681563625::1703624817::1703624818::1::::<><>::
+4.png::CompressedTexture2D::2762413196789859930::1703624817::1703624818::1::::<><>::
+::res://Arbol de escenas/menuCarga/::1711510638
+menu_carga.tscn::PackedScene::4624238040880799775::1711510638::0::1::::<><>::uid://bmc8x5gc13t8y::::res://Arbol de escenas/menuCarga/asets/2.5-START_TO_END/NEWSPAPER.png
+::res://Arbol de escenas/menuCarga/asets/::1703626855
+::res://Arbol de escenas/menuCarga/asets/2.5-START_TO_END/::1703626857
+1.png::CompressedTexture2D::5587126095603484235::1703626855::1703626857::1::::<><>::
+2.png::CompressedTexture2D::2673876495893117190::1703626855::1703626857::1::::<><>::
+3.png::CompressedTexture2D::244250188853220009::1703626855::1703626857::1::::<><>::
+NEWSPAPER.png::CompressedTexture2D::3234861881974785158::1703626856::1703626857::1::::<><>::
+::res://Arbol de escenas/oficina/::1711510826
+IaBonie.gd::GDScript::-1::1711510637::0::1::::<>Node<>::
+Oficina.gd::GDScript::-1::1708839667::0::1::::<>Node2D<>::
+oficina.gdshader::Shader::-1::1711510826::0::1::::<><>::
+oficina.tscn::PackedScene::8009163440178871324::1711510638::0::1::::<><>::uid://nparsilrclci::::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/1-OFFICE_TV_ON.png<>res://Arbol de escenas/oficina/Oficina.gd<>uid://dxpyvxvc78lgp::::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/RIGHT_LIGHT.png<>uid://ditxw2hb8jfda::::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/LEFT_LIGHT.png<>uid://m0lu0qvmjmpb::::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/1-OFFICE_BONNIE.png<>uid://doowpboh08d6e::::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/FAN/1.png<>uid://c2lygb1jaubqo::::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/1-OFFICE.png<>uid://btr2lhhqi4gi5::::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/FAN/2.png<>uid://drbeov21kxoja::::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/FAN/3.png<>uid://dr0nr0kugehtr::::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/LEFT/1.png<>uid://c2bvbxnubovej::::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/LEFT/2.png<>uid://rebniryqlome::::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/LEFT/3.png<>uid://bqlg1oyhxx0w8::::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/LEFT/4.png<>uid://voufe5ctjobw::::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/LEFT/5.png<>uid://j1v4xa51dul0::::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/LEFT/6.png<>uid://ddrhaiy22lde7::::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/LEFT/7.png<>uid://ki5ta4bw62kq::::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/LEFT/8.png<>uid://baeueqcx83ecw::::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/LEFT/9.png<>uid://bilvoipdp08kg::::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/LEFT/10.png<>uid://dllrwl3r305hf::::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/LEFT/11.png<>uid://blf6ta35aq5aw::::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/LEFT/12.png<>uid://x7nepdog4cv0::::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/LEFT/13.png<>uid://drdbwkqthwgje::::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/LEFT/14.png<>uid://ch0xirycan8ij::::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/RIGHT/1.png<>uid://0df3aymec1ym::::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/RIGHT/2.png<>uid://bgwjx8nx70okf::::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/RIGHT/3.png<>uid://e4gee7rv0jhq::::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/RIGHT/4.png<>uid://cfxrosfsfqftk::::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/RIGHT/5.png<>uid://bo1fw4qg2jmkt::::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/RIGHT/6.png<>uid://yu3utc3p2anm::::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/RIGHT/7.png<>uid://co6hct1247gvi::::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/RIGHT/8.png<>uid://sg216axdmocv::::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/RIGHT/9.png<>uid://cfjuryfmfnbu0::::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/RIGHT/10.png<>uid://bqwmdwnpnddvh::::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/RIGHT/11.png<>uid://c57djmaipwxhb::::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/RIGHT/12.png<>uid://ctcfwkdx7q7vg::::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/RIGHT/13.png<>uid://ci4mk1wdh547o::::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/RIGHT/14.png<>uid://bs6am5g0cth1y::::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/BUTTONS/LEFT/1-STOPPED.png<>uid://dtn0xt2u851v4::::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/BUTTONS/LEFT/2-DOOR.png<>uid://cuh0t3ad6xeo4::::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/BUTTONS/RIGHT/1-STOPPED.png<>uid://u3xis6vy7371::::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/BUTTONS/LEFT/4-BOTH.png<>uid://d27g3mabs3xtp::::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/BUTTONS/RIGHT/2-DOOR.png<>uid://chkeihlwduj3w::::res://Arbol de escenas/oficina/assets/SFXBible_12478.wav<>uid://dyg18drfhqpfp::::res://Arbol de escenas/oficina/assets/ambience2.wav<>uid://cm704j4ygxgxj::::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/BUTTONS/LEFT/3-LIGHT.png<>uid://cnk0ljh2v7k0p::::res://Arbol de escenas/oficina/assets/voiceover1c.wav<>uid://dciv8lb3gf38i::::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/BUTTONS/RIGHT/4-BOTH.png<>uid://10iprlt0eidg::::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/BUTTONS/RIGHT/3-LIGHT.png<>uid://bkh4k0thllw48::::res://Arbol de escenas/oficina/controlAnim/control_anim.tscn<>uid://ud8c04slowa7::::res://Arbol de escenas/oficina/mapa/mapa.tscn<>uid://ia52ghrpfo5h::::res://Arbol de escenas/oficina/monitor/monitor.tscn<>uid://c62vol2eaql8l::::res://Arbol de escenas/oficina/mapa/0-FLIP.png<>res://Arbol de escenas/oficina/IaBonie.gd<>res://Arbol de escenas/oficina/mapa/BtnCamara.gd
+::res://Arbol de escenas/oficina/assets/::1703903020
+ambience2.wav::AudioStreamWAV::8857818321996132037::1703902921::1703903020::1::::<><>::
+SFXBible_12478.wav::AudioStreamWAV::5285064590376016962::1703902900::1703902991::1::::<><>::
+voiceover1c.wav::AudioStreamWAV::5707478165553208185::1703902911::1703902914::1::::<><>::
+::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/::1704322235
+1-OFFICE.png::CompressedTexture2D::6692116316595530098::1703898894::1704322235::1::::<><>::
+1-OFFICE_BONNIE.png::CompressedTexture2D::894580509077584343::1703898894::1703898907::1::::<><>::
+1-OFFICE_CHICA.png::CompressedTexture2D::2181791763717774185::1703898894::1703898907::1::::<><>::
+1-OFFICE_TV_ON.png::CompressedTexture2D::943451950403037560::1703898894::1703898908::1::::<><>::
+LEFT_LIGHT.png::CompressedTexture2D::7761433184844213298::1703898905::1703898908::1::::<><>::
+RIGHT_LIGHT.png::CompressedTexture2D::8806067071176232207::1703898908::1703898909::1::::<><>::
+::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/::1703898884
+::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/BUTTONS/::1703898884
+::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/BUTTONS/LEFT/::1703898913
+1-STOPPED.png::CompressedTexture2D::3713838595189040640::1703898894::1703898913::1::::<><>::
+2-DOOR.png::CompressedTexture2D::8521247029691059215::1703898894::1703898913::1::::<><>::
+3-LIGHT.png::CompressedTexture2D::5682737810623766407::1703898894::1703898913::1::::<><>::
+4-BOTH.png::CompressedTexture2D::1462991221355935914::1703898894::1703898913::1::::<><>::
+::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/BUTTONS/RIGHT/::1703898914
+1-STOPPED.png::CompressedTexture2D::6192622210161068689::1703898894::1703898913::1::::<><>::
+2-DOOR.png::CompressedTexture2D::9120835851972845201::1703898894::1703898913::1::::<><>::
+3-LIGHT.png::CompressedTexture2D::1877032812077690588::1703898894::1703898914::1::::<><>::
+4-BOTH.png::CompressedTexture2D::7317489329016899362::1703898894::1703898914::1::::<><>::
+::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/LEFT/::1703898915
+1.png::CompressedTexture2D::8404902845628385587::1703898895::1703898914::1::::<><>::
+2.png::CompressedTexture2D::6671282595039267109::1703898895::1703898914::1::::<><>::
+3.png::CompressedTexture2D::1201552232737076460::1703898895::1703898914::1::::<><>::
+4.png::CompressedTexture2D::3532561842546328185::1703898895::1703898914::1::::<><>::
+5.png::CompressedTexture2D::1504090530334534952::1703898895::1703898914::1::::<><>::
+6.png::CompressedTexture2D::686701468654185559::1703898895::1703898914::1::::<><>::
+7.png::CompressedTexture2D::7405348481287162396::1703898895::1703898914::1::::<><>::
+8.png::CompressedTexture2D::720258943155401864::1703898895::1703898914::1::::<><>::
+9.png::CompressedTexture2D::2395900522293719226::1703898895::1703898914::1::::<><>::
+10.png::CompressedTexture2D::2971940089571021750::1703898895::1703898915::1::::<><>::
+11.png::CompressedTexture2D::7955119584557466899::1703898895::1703898915::1::::<><>::
+12.png::CompressedTexture2D::3170736053959959502::1703898895::1703898915::1::::<><>::
+13.png::CompressedTexture2D::1681200749016163507::1703898895::1703898915::1::::<><>::
+14.png::CompressedTexture2D::8358766081470578638::1703898895::1703898915::1::::<><>::
+::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/RIGHT/::1703898912
+1.png::CompressedTexture2D::5317184423952469701::1703898895::1703898911::1::::<><>::
+2.png::CompressedTexture2D::1761267849032144244::1703898896::1703898912::1::::<><>::
+3.png::CompressedTexture2D::2853559336747110009::1703898896::1703898912::1::::<><>::
+4.png::CompressedTexture2D::340994034880681818::1703898896::1703898912::1::::<><>::
+5.png::CompressedTexture2D::5172324417880916596::1703898896::1703898912::1::::<><>::
+6.png::CompressedTexture2D::3423082736863935055::1703898896::1703898912::1::::<><>::
+7.png::CompressedTexture2D::1727556596396091790::1703898896::1703898912::1::::<><>::
+8.png::CompressedTexture2D::5819910518607026714::1703898896::1703898912::1::::<><>::
+9.png::CompressedTexture2D::1277472870728529537::1703898896::1703898912::1::::<><>::
+10.png::CompressedTexture2D::5143610952551459645::1703898895::1703898912::1::::<><>::
+11.png::CompressedTexture2D::3555593630081032933::1703898895::1703898912::1::::<><>::
+12.png::CompressedTexture2D::6944765618445151595::1703898896::1703898912::1::::<><>::
+13.png::CompressedTexture2D::6110901555403035760::1703898896::1703898912::1::::<><>::
+14.png::CompressedTexture2D::5394966932950116482::1703898896::1703898912::1::::<><>::
+::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/STOPPED/::1703898912
+103.png::CompressedTexture2D::7335437161838050770::1703898896::1703898912::1::::<><>::
+104.png::CompressedTexture2D::1613808520121442673::1703898897::1703898912::1::::<><>::
+::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/FAN/::1703898913
+1.png::CompressedTexture2D::8172169785821398950::1703898897::1703898912::1::::<><>::
+2.png::CompressedTexture2D::3756762516388267374::1703898897::1703898913::1::::<><>::
+3.png::CompressedTexture2D::8354805785661324994::1703898897::1703898913::1::::<><>::
+::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/FOXY/::1703898928
+1.png::CompressedTexture2D::7124680223539741287::1703898897::1703898914::1::::<><>::
+2.png::CompressedTexture2D::5266095342662583663::1703898898::1703898914::1::::<><>::
+3.png::CompressedTexture2D::1861669240331592988::1703898898::1703898914::1::::<><>::
+4.png::CompressedTexture2D::8247775230119513753::1703898898::1703898922::1::::<><>::
+5.png::CompressedTexture2D::491268209113707489::1703898898::1703898922::1::::<><>::
+6.png::CompressedTexture2D::3595575149633478654::1703898898::1703898923::1::::<><>::
+7.png::CompressedTexture2D::6104611271797193101::1703898898::1703898923::1::::<><>::
+8.png::CompressedTexture2D::1234463383932353365::1703898898::1703898923::1::::<><>::
+9.png::CompressedTexture2D::9085846379520298311::1703898899::1703898923::1::::<><>::
+10.png::CompressedTexture2D::8631207838157281011::1703898897::1703898924::1::::<><>::
+11.png::CompressedTexture2D::3723113132045961499::1703898897::1703898925::1::::<><>::
+12.png::CompressedTexture2D::4880387463639445212::1703898897::1703898925::1::::<><>::
+13.png::CompressedTexture2D::1222057334141861744::1703898897::1703898925::1::::<><>::
+14.png::CompressedTexture2D::8235082964428829664::1703898898::1703898926::1::::<><>::
+15.png::CompressedTexture2D::3958650712057285173::1703898898::1703898926::1::::<><>::
+16.png::CompressedTexture2D::3240740801522829051::1703898898::1703898926::1::::<><>::
+17.png::CompressedTexture2D::3794857765480964952::1703898898::1703898926::1::::<><>::
+18.png::CompressedTexture2D::7471701798234236809::1703898898::1703898927::1::::<><>::
+19.png::CompressedTexture2D::791994228092384248::1703898898::1703898927::1::::<><>::
+20.png::CompressedTexture2D::2321493110287627779::1703898898::1703898927::1::::<><>::
+21.png::CompressedTexture2D::4669433822174623298::1703898898::1703898928::1::::<><>::
+::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/JUMPSCARES/::1703898888
+::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/JUMPSCARES/1-FREDDY/::1703898929
+1.png::CompressedTexture2D::2062596276956113401::1703898899::1703898928::1::::<><>::
+2.png::CompressedTexture2D::5200092035245657297::1703898899::1703898928::1::::<><>::
+3.png::CompressedTexture2D::6721983080769789160::1703898900::1703898929::1::::<><>::
+4.png::CompressedTexture2D::6789320309379339693::1703898900::1703898929::1::::<><>::
+5.png::CompressedTexture2D::5034374749617125982::1703898900::1703898916::1::::<><>::
+6.png::CompressedTexture2D::3395608315421992273::1703898900::1703898916::1::::<><>::
+7.png::CompressedTexture2D::3971251008768223325::1703898900::1703898916::1::::<><>::
+8.png::CompressedTexture2D::4095858773495590406::1703898900::1703898916::1::::<><>::
+9.png::CompressedTexture2D::2272008089193192842::1703898901::1703898917::1::::<><>::
+10.png::CompressedTexture2D::8278383406804857459::1703898899::1703898917::1::::<><>::
+11.png::CompressedTexture2D::1397493799775175477::1703898899::1703898917::1::::<><>::
+12.png::CompressedTexture2D::7192595237048509094::1703898899::1703898917::1::::<><>::
+13.png::CompressedTexture2D::3839459097867818665::1703898899::1703898918::1::::<><>::
+14.png::CompressedTexture2D::3614299338717029372::1703898899::1703898918::1::::<><>::
+15.png::CompressedTexture2D::6118726724958170914::1703898899::1703898918::1::::<><>::
+16.png::CompressedTexture2D::1696772461190706300::1703898899::1703898918::1::::<><>::
+17.png::CompressedTexture2D::6790486603655549511::1703898899::1703898919::1::::<><>::
+18.png::CompressedTexture2D::1615377739967194290::1703898899::1703898920::1::::<><>::
+19.png::CompressedTexture2D::1286847897133753328::1703898899::1703898920::1::::<><>::
+20.png::CompressedTexture2D::3413534732238709946::1703898899::1703898920::1::::<><>::
+21.png::CompressedTexture2D::3293390522076562149::1703898899::1703898921::1::::<><>::
+22.png::CompressedTexture2D::7563378529337589431::1703898899::1703898921::1::::<><>::
+23.png::CompressedTexture2D::6958075973602361801::1703898899::1703898921::1::::<><>::
+24.png::CompressedTexture2D::1854373507406799011::1703898900::1703898921::1::::<><>::
+25.png::CompressedTexture2D::3713451121207490017::1703898900::1703898922::1::::<><>::
+26.png::CompressedTexture2D::4927223395885258553::1703898900::1703898922::1::::<><>::
+27.png::CompressedTexture2D::173568504706854511::1703898900::1703898900::1::::<><>::
+28.png::CompressedTexture2D::7384983824966721099::1703898900::1703898901::1::::<><>::
+29.png::CompressedTexture2D::4748371520492095418::1703898900::1703898901::1::::<><>::
+::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/JUMPSCARES/1-FREDDY_LIGHTS_OUT/::1703898931
+1.png::CompressedTexture2D::387446808803184204::1703898901::1703898901::1::::<><>::
+2.png::CompressedTexture2D::2233690163196224302::1703898902::1703898902::1::::<><>::
+3.png::CompressedTexture2D::7645687018120390895::1703898902::1703898902::1::::<><>::
+4.png::CompressedTexture2D::2297248207924345994::1703898902::1703898902::1::::<><>::
+5.png::CompressedTexture2D::352138615144301051::1703898902::1703898902::1::::<><>::
+6.png::CompressedTexture2D::9050492632803038643::1703898902::1703898903::1::::<><>::
+7.png::CompressedTexture2D::7811618690554282595::1703898902::1703898903::1::::<><>::
+8.png::CompressedTexture2D::8125825033042970083::1703898902::1703898931::1::::<><>::
+9.png::CompressedTexture2D::9177148583511806391::1703898902::1703898903::1::::<><>::
+10.png::CompressedTexture2D::27776140543116221::1703898901::1703898904::1::::<><>::
+11.png::CompressedTexture2D::8134651342635481549::1703898901::1703898904::1::::<><>::
+12.png::CompressedTexture2D::4404535071021313749::1703898901::1703898904::1::::<><>::
+13.png::CompressedTexture2D::6289521174592000404::1703898901::1703898905::1::::<><>::
+14.png::CompressedTexture2D::5755600790342032711::1703898901::1703898905::1::::<><>::
+15.png::CompressedTexture2D::5762990594940444777::1703898902::1703898905::1::::<><>::
+16.png::CompressedTexture2D::3400317015877448229::1703898902::1703898905::1::::<><>::
+17.png::CompressedTexture2D::4868668566543224877::1703898902::1703898906::1::::<><>::
+18.png::CompressedTexture2D::800931780855474551::1703898902::1703898906::1::::<><>::
+19.png::CompressedTexture2D::6798601667790392261::1703898902::1703898906::1::::<><>::
+20.png::CompressedTexture2D::4042760326408826566::1703898902::1703898892::1::::<><>::
+::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/JUMPSCARES/2-BONNIE/::1703898904
+1.png::CompressedTexture2D::62573384031433928::1703898903::1703898892::1::::<><>::
+2.png::CompressedTexture2D::8755574001932205214::1703898903::1703898892::1::::<><>::
+3.png::CompressedTexture2D::1514664711825540598::1703898903::1703898892::1::::<><>::
+4.png::CompressedTexture2D::407847441419337631::1703898903::1703898894::1::::<><>::
+5.png::CompressedTexture2D::6432032185268377769::1703898903::1703898893::1::::<><>::
+6.png::CompressedTexture2D::7733563083914210258::1703898903::1703898894::1::::<><>::
+7.png::CompressedTexture2D::2537396687015445354::1703898903::1703898894::1::::<><>::
+8.png::CompressedTexture2D::6055658891873117140::1703898903::1703898895::1::::<><>::
+9.png::CompressedTexture2D::7097443916916503630::1703898904::1703898895::1::::<><>::
+10.png::CompressedTexture2D::2994762157379238893::1703898903::1703898895::1::::<><>::
+11.png::CompressedTexture2D::3156763057511694290::1703898903::1703898895::1::::<><>::
+::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/JUMPSCARES/3-CHICA/::1703898911
+1.png::CompressedTexture2D::581559204995556057::1703898904::1703898896::1::::<><>::
+2.png::CompressedTexture2D::7192972567998203875::1703898905::1703898896::1::::<><>::
+3.png::CompressedTexture2D::6552586764424773594::1703898905::1703898897::1::::<><>::
+4.png::CompressedTexture2D::3599031432417976288::1703898905::1703898898::1::::<><>::
+5.png::CompressedTexture2D::1303883332945549550::1703898905::1703898898::1::::<><>::
+6.png::CompressedTexture2D::401789613984259945::1703898905::1703898898::1::::<><>::
+7.png::CompressedTexture2D::6001751934624027635::1703898905::1703898899::1::::<><>::
+8.png::CompressedTexture2D::3768462314789091495::1703898905::1703898899::1::::<><>::
+9.png::CompressedTexture2D::6551524825689165579::1703898905::1703898899::1::::<><>::
+10.png::CompressedTexture2D::2853848949982842703::1703898904::1703898900::1::::<><>::
+11.png::CompressedTexture2D::6862294184992650119::1703898904::1703898909::1::::<><>::
+12.png::CompressedTexture2D::8376148853975221616::1703898904::1703898910::1::::<><>::
+13.png::CompressedTexture2D::5647292283767356915::1703898904::1703898910::1::::<><>::
+14.png::CompressedTexture2D::6788053824136220535::1703898905::1703898910::1::::<><>::
+15.png::CompressedTexture2D::5197639836364168554::1703898905::1703898910::1::::<><>::
+16.png::CompressedTexture2D::107619844569019976::1703898905::1703898911::1::::<><>::
+::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/LIGHTS_OUT/::1703898911
+304.png::CompressedTexture2D::1766278309414163423::1703898906::1703898911::1::::<><>::
+305.png::CompressedTexture2D::6977210293245066598::1703898906::1703898911::1::::<><>::
+326.png::CompressedTexture2D::9069638560976861126::1703898906::1703898911::1::::<><>::
+::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/OTHER/::1703898907
+447.png::CompressedTexture2D::6409463394306837201::1703898906::1703898906::1::::<><>::
+AM.png::CompressedTexture2D::6638544781711012334::1703898906::1703898906::1::::<><>::
+GAME_OVER.png::CompressedTexture2D::5004693785557258142::1703898906::1703898906::1::::<><>::
+GAME_OVER_.png::CompressedTexture2D::8263056538978590643::1703898906::1703898907::1::::<><>::
+PERCENT.png::CompressedTexture2D::8178262508372401298::1703898906::1703898906::1::::<><>::
+POWER_LEFT.png::CompressedTexture2D::6561794914073942579::1703898906::1703898906::1::::<><>::
+USAGE.png::CompressedTexture2D::2096393842868784692::1703898907::1703898906::1::::<><>::
+::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/OTHER/NUMBERS/::1703898911
+0.png::CompressedTexture2D::2270043826363743177::1703898906::1703898911::1::::<><>::
+1.png::CompressedTexture2D::6569258501954528446::1703898906::1703898911::1::::<><>::
+2.png::CompressedTexture2D::4443867121489398027::1703898906::1703898911::1::::<><>::
+3.png::CompressedTexture2D::4687277713055547595::1703898906::1703898911::1::::<><>::
+4.png::CompressedTexture2D::849627018252837142::1703898906::1703898911::1::::<><>::
+5.png::CompressedTexture2D::5246082326512220112::1703898906::1703898911::1::::<><>::
+6.png::CompressedTexture2D::4010452203901170872::1703898906::1703898911::1::::<><>::
+7.png::CompressedTexture2D::1840098632203411367::1703898906::1703898911::1::::<><>::
+8.png::CompressedTexture2D::3796073585040339254::1703898906::1703898911::1::::<><>::
+9.png::CompressedTexture2D::3503920683031384862::1703898906::1703898911::1::::<><>::
+DOT.png::CompressedTexture2D::5328892742875099599::1703898906::1703898911::1::::<><>::
+E.png::CompressedTexture2D::8122693433333899993::1703898906::1703898911::1::::<><>::
+MINUS.png::CompressedTexture2D::3793866962334229989::1703898906::1703898911::1::::<><>::
+PLUS.png::CompressedTexture2D::2886737138664673224::1703898906::1703898905::1::::<><>::
+::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/OTHER/REACH_6AM/::1703898907
+1.png::CompressedTexture2D::7599922236413233900::1703898906::1703898905::1::::<><>::
+2.png::CompressedTexture2D::1191075115249660701::1703898907::1703898905::1::::<><>::
+3.png::CompressedTexture2D::7456124383875089249::1703898907::1703898905::1::::<><>::
+::res://Arbol de escenas/oficina/assets/3-THE_OFFICE/OTHER/USAGE_BAR/::1703898907
+1.png::CompressedTexture2D::8518332602478314363::1703898907::1703898905::1::::<><>::
+2.png::CompressedTexture2D::5168394512017775455::1703898907::1703898906::1::::<><>::
+3.png::CompressedTexture2D::5656108280475833389::1703898907::1703898906::1::::<><>::
+4.png::CompressedTexture2D::5237043226017353116::1703898907::1703898906::1::::<><>::
+5.png::CompressedTexture2D::2205007269567749989::1703898907::1703898906::1::::<><>::
+::res://Arbol de escenas/oficina/controlAnim/::1711510638
+camara.tscn::PackedScene::8032991902555325586::1711510638::0::1::::<><>::uid://dieefwpv2dydx::::res://Arbol de escenas/oficina/controlAnim/assets/1-STAGE.png<>uid://2tkrkqjlhvxf::::res://Arbol de escenas/oficina/controlAnim/assets/1-STAGE_BONNIE.png
+control_anim.gd::GDScript::-1::1708897585::0::1::::<>Node2D<>::
+control_anim.tscn::PackedScene::3104539757849363707::1711510638::0::1::::<><>::res://Arbol de escenas/oficina/controlAnim/control_anim.gd<>uid://dmpig5wyt34ao::::res://Arbol de escenas/oficina/controlAnim/camara.tscn<>uid://c3qp4d6u4at6q::::res://Arbol de escenas/oficina/controlAnim/assets/2-DINING_AREA.png<>uid://bh6fikbjusm3::::res://Arbol de escenas/oficina/controlAnim/assets/3-PIRATE_COVE.png<>uid://c5yswjn8e8ec8::::res://Arbol de escenas/oficina/controlAnim/assets/2-DINING_AREA_BONNIE.png<>uid://fq358qq4ksh1::::res://Arbol de escenas/oficina/controlAnim/assets/6-WEST_HALL_CORNER.png<>uid://so8oosgl7bgo::::res://Arbol de escenas/oficina/controlAnim/assets/2-DINING_AREA_BONNIE_2.0.png<>uid://cffktqhp4wucm::::res://Arbol de escenas/oficina/controlAnim/assets/9-WEST_HALL.png<>uid://ma6523qvcjjq::::res://Arbol de escenas/oficina/controlAnim/assets/7-EAST_HALL_CORNER.png<>uid://c6s4yufrqu8u::::res://Arbol de escenas/oficina/controlAnim/assets/10-EAST_HALL.png<>uid://cisf8e4xipsqt::::res://Arbol de escenas/oficina/controlAnim/assets/6-WEST_HALL_CORNER_BONNIE.png<>uid://qs1hrwe6k4sj::::res://Arbol de escenas/oficina/controlAnim/assets/5-BACKSTAGE.png<>uid://60317s378u25::::res://Arbol de escenas/oficina/controlAnim/assets/4-RESTROOMS.png<>uid://cg7fs0cvyspvy::::res://Arbol de escenas/oficina/controlAnim/assets/9-WEST_HALL_BONNIE.png<>uid://ddlhr5ejcchpf::::res://Arbol de escenas/oficina/monitor/estatica.tscn<>uid://cnrfrj4qkyy05::::res://Arbol de escenas/oficina/controlAnim/assets/9-WEST_HALL_BONNIE2.png<>uid://dcsyjtbnf8i1e::::res://Arbol de escenas/oficina/controlAnim/assets/9-WEST_HALL_BONNIE3.png<>uid://bais2hgfq4peg::::res://Arbol de escenas/oficina/controlAnim/assets/8-SUPPLY_ROOM.png<>res://Arbol de escenas/oficina/monitor/estatica.gd<>uid://uj7o7lt43ioa::::res://Arbol de escenas/oficina/controlAnim/assets/5-BACKSTAGE_BONNIE.png<>uid://crdefwaxlojac::::res://Arbol de escenas/oficina/controlAnim/assets/5-BACKSTAGE_BONNIE_2.0.png<>uid://bgqmpvxa4gr1e::::res://Arbol de escenas/oficina/controlAnim/assets/8-SUPPLY_ROOM_BONNIE.png
+::res://Arbol de escenas/oficina/controlAnim/assets/::1705199588
+1-STAGE.png::CompressedTexture2D::7729283287816531845::1705199314::1705199327::1::::<><>::
+1-STAGE_ALL.png::CompressedTexture2D::8729560635334506326::1705199314::1705199328::1::::<><>::
+1-STAGE_BONNIE.png::CompressedTexture2D::1934960034352348783::1705199314::1705199328::1::::<><>::
+1-STAGE_BONNIE_CHICA.png::CompressedTexture2D::4319311942717381111::1705199314::1705199328::1::::<><>::
+1-STAGE_CHICA.png::CompressedTexture2D::1257092994013615777::1705199314::1705199329::1::::<><>::
+1-STAGE_FREDDY_LOOKING.png::CompressedTexture2D::2970043853261843242::1705199314::1705199329::1::::<><>::
+1-STAGE_LOOKING.png::CompressedTexture2D::5184615822339132770::1705199314::1705199330::1::::<><>::
+1.png::CompressedTexture2D::2479797936780288018::1705199588::1705199577::1::::<><>::
+2-DINING_AREA.png::CompressedTexture2D::6772121782637276810::1705199314::1705199332::1::::<><>::
+2-DINING_AREA_BONNIE.png::CompressedTexture2D::6929184430258937117::1705199314::1705199333::1::::<><>::
+2-DINING_AREA_BONNIE_2.0.png::CompressedTexture2D::1294329899339334478::1705199314::1705199333::1::::<><>::
+2-DINING_AREA_CHICA2.png::CompressedTexture2D::1630337883261628353::1705199314::1705199333::1::::<><>::
+2-DINING_AREA_CHICA.png::CompressedTexture2D::4649311024331393799::1705199314::1705199333::1::::<><>::
+2-DINING_AREA_FREDDY.png::CompressedTexture2D::2477583717341325951::1705199314::1705199334::1::::<><>::
+3-PIRATE_COVE.png::CompressedTexture2D::86531079354850764::1705199314::1705199334::1::::<><>::
+3-PIRATE_COVE_FOXY2.png::CompressedTexture2D::3339271918314378359::1705199314::1705199335::1::::<><>::
+3-PIRATE_COVE_FOXY3.png::CompressedTexture2D::2851965253840633168::1705199314::1705199335::1::::<><>::
+3-PIRATE_COVE_FOXY.png::CompressedTexture2D::3794131667385491532::1705199314::1705199334::1::::<><>::
+3-PIRATE_COVE_IT'S_ME.png::CompressedTexture2D::8961433367804602194::1705199314::1705199318::1::::<><>::
+4-RESTROOMS.png::CompressedTexture2D::2229211812939446412::1705199314::1705199318::1::::<><>::
+4-RESTROOMS_CHICA2.png::CompressedTexture2D::3340345610000914386::1705199315::1705199318::1::::<><>::
+4-RESTROOMS_CHICA.png::CompressedTexture2D::7547843788652134579::1705199315::1705199318::1::::<><>::
+4-RESTROOMS_FREDDY.png::CompressedTexture2D::7114948698646760647::1705199315::1705199320::1::::<><>::
+5-BACKSTAGE.png::CompressedTexture2D::1161772367257101345::1705199315::1705199320::1::::<><>::
+5-BACKSTAGE_BONNIE.png::CompressedTexture2D::1424325916073571276::1705199315::1705199320::1::::<><>::
+5-BACKSTAGE_BONNIE_2.0.png::CompressedTexture2D::5972497796009500582::1705199315::1705199321::1::::<><>::
+5-BACKSTAGE_LOOKING.png::CompressedTexture2D::4600650762895059499::1705199315::1705199321::1::::<><>::
+6-WEST_HALL_CORNER.png::CompressedTexture2D::385729670623286256::1705199315::1705199321::1::::<><>::
+6-WEST_HALL_CORNER_2.png::CompressedTexture2D::9026133617201739511::1705199315::1705199322::1::::<><>::
+6-WEST_HALL_CORNER_BONNIE.png::CompressedTexture2D::5371873688175276051::1705199315::1705199323::1::::<><>::
+7-EAST_HALL_CORNER.png::CompressedTexture2D::844203386389392582::1705199315::1705199323::1::::<><>::
+7-EAST_HALL_CORNER_CHICA2.png::CompressedTexture2D::4755060826862715794::1705199315::1705199323::1::::<><>::
+7-EAST_HALL_CORNER_CHICA.png::CompressedTexture2D::2299833389496734442::1705199315::1705199323::1::::<><>::
+7-EAST_HALL_CORNER_CHILDREN.png::CompressedTexture2D::7306014460892927652::1705199315::1705199324::1::::<><>::
+7-EAST_HALL_CORNER_FREDDY.png::CompressedTexture2D::903613234526695752::1705199315::1705199324::1::::<><>::
+7-EAST_HALL_CORNER_IT'S_ME.png::CompressedTexture2D::3868622849973757153::1705199315::1705199325::1::::<><>::
+8-SUPPLY_ROOM.png::CompressedTexture2D::2404077205212801106::1705199315::1705199325::1::::<><>::
+8-SUPPLY_ROOM_BONNIE.png::CompressedTexture2D::2841340318967887484::1705199315::1705199325::1::::<><>::
+9-WEST_HALL.png::CompressedTexture2D::5134749426266926784::1705199315::1705199325::1::::<><>::
+9-WEST_HALL_BONNIE2.png::CompressedTexture2D::5720725218210636272::1705199315::1705199326::1::::<><>::
+9-WEST_HALL_BONNIE3.png::CompressedTexture2D::7338272817987089616::1705199316::1705199327::1::::<><>::
+9-WEST_HALL_BONNIE.png::CompressedTexture2D::5260371563758733646::1705199315::1705199326::1::::<><>::
+9-WEST_HALL_GOLDEN_FREDDY.png::CompressedTexture2D::1196313527769422724::1705199313::1705199327::1::::<><>::
+9-WEST_HALL_POSTER_GLITCH.png::CompressedTexture2D::5441493308556961804::1705199313::1705199327::1::::<><>::
+10-EAST_HALL.png::CompressedTexture2D::205519383251995894::1705199313::1705199329::1::::<><>::
+10-EAST_HALL_CHICA2.png::CompressedTexture2D::167686794558708368::1705199313::1705199331::1::::<><>::
+10-EAST_HALL_CHICA3.png::CompressedTexture2D::7962540808360436557::1705199313::1705199331::1::::<><>::
+10-EAST_HALL_CHICA.png::CompressedTexture2D::5943427667858458407::1705199313::1705199330::1::::<><>::
+10-EAST_HALL_FREDDY.png::CompressedTexture2D::7357843967983206814::1705199313::1705199331::1::::<><>::
+10-EAST_HALL_NEWS2.png::CompressedTexture2D::5651383701418705498::1705199314::1705199332::1::::<><>::
+10-EAST_HALL_NEWS3.png::CompressedTexture2D::1268054922248536630::1705199314::1705199332::1::::<><>::
+10-EAST_HALL_NEWS4.png::CompressedTexture2D::2363448421640431040::1705199314::1705199332::1::::<><>::
+10-EAST_HALL_NEWS.png::CompressedTexture2D::4762345262398363403::1705199314::1705199331::1::::<><>::
+::res://Arbol de escenas/oficina/mapa/::1711486472
+0-FLIP.png::CompressedTexture2D::7005734397136539481::1708829936::1708829936::1::::<><>::
+1-MAP.png::CompressedTexture2D::941943645689811909::1705198272::1705198274::1::::<><>::
+BtnCamara.gd::GDScript::-1::1708896323::0::1::::<>Button<>::
+mapa.tscn::PackedScene::1411978597088124824::1711486472::0::1::::<><>::uid://nojw6ny5w2eb::::res://Arbol de escenas/oficina/mapa/1-MAP.png<>uid://bqm5s8b2e28y::::res://Arbol de escenas/oficina/mapa/CAM_BUTTONS/1-CAM 1A.png<>uid://d000wut13pfjo::::res://Arbol de escenas/oficina/mapa/CAM_BUTTONS/CAM_PRESSED2 (switch animation sequence).png<>uid://cr1cwebfw2eqd::::res://Arbol de escenas/oficina/mapa/CAM_BUTTONS/1-CAM 1B.png<>uid://cxdbvqy2mskrb::::res://Arbol de escenas/oficina/mapa/CAM_BUTTONS/1-CAM 1C.png<>uid://brkrfhr8ht1ak::::res://Arbol de escenas/oficina/mapa/CAM_BUTTONS/2-CAM 2A.png<>uid://b6u508u2ov3n3::::res://Arbol de escenas/oficina/mapa/CAM_BUTTONS/2-CAM 2B.png<>uid://cie86vcb4re51::::res://Arbol de escenas/oficina/mapa/CAM_BUTTONS/3-CAM 3.png<>uid://dpytc8e1tgtb3::::res://Arbol de escenas/oficina/mapa/CAM_BUTTONS/4-CAM 4A.png<>uid://bwcmw3oax2fcj::::res://Arbol de escenas/oficina/mapa/CAM_BUTTONS/4-CAM 4B.png<>uid://3caqej5jlulx::::res://Arbol de escenas/oficina/mapa/CAM_BUTTONS/5-CAM 5.png<>uid://dkrm6ojl88wlp::::res://Arbol de escenas/oficina/mapa/CAM_BUTTONS/6-CAM 6.png<>uid://dewbm0vhvhdgj::::res://Arbol de escenas/oficina/mapa/CAM_BUTTONS/7-CAM 7.png
+::res://Arbol de escenas/oficina/mapa/CAM_BUTTONS/::1705198279
+1-CAM 1A.png::CompressedTexture2D::104002061913887638::1705198277::1705198278::1::::<><>::
+1-CAM 1B.png::CompressedTexture2D::6019886464185595339::1705198277::1705198278::1::::<><>::
+1-CAM 1C.png::CompressedTexture2D::6393477001680315931::1705198277::1705198278::1::::<><>::
+2-CAM 2A.png::CompressedTexture2D::3601316316361429978::1705198277::1705198278::1::::<><>::
+2-CAM 2B.png::CompressedTexture2D::4605430311596883246::1705198277::1705198279::1::::<><>::
+3-CAM 3.png::CompressedTexture2D::5344669754043870238::1705198277::1705198279::1::::<><>::
+4-CAM 4A.png::CompressedTexture2D::8262798706854337834::1705198277::1705198279::1::::<><>::
+4-CAM 4B.png::CompressedTexture2D::3935473382929906985::1705198277::1705198279::1::::<><>::
+5-CAM 5.png::CompressedTexture2D::1969445175447690565::1705198277::1705198279::1::::<><>::
+6-CAM 6.png::CompressedTexture2D::7897029622578245909::1705198277::1705198279::1::::<><>::
+7-CAM 7.png::CompressedTexture2D::7485517228611409161::1705198277::1705198279::1::::<><>::
+CAM_PRESSED1 (animation or stopped).png::CompressedTexture2D::986894325916584249::1705198277::1705198279::1::::<><>::
+CAM_PRESSED2 (switch animation sequence).png::CompressedTexture2D::8967150879204297356::1705198277::1705198279::1::::<><>::
+::res://Arbol de escenas/oficina/monitor/::1711486472
+estatica.gd::GDScript::-1::1708895046::0::1::::<>AnimatedSprite2D<>::
+estatica.tscn::PackedScene::7392993697025207023::1708894950::0::1::::<><>::uid://bly7loealqq14::::res://Arbol de escenas/menu/asets/0-STATIC/1.png<>uid://h0vh1o02x6ga::::res://Arbol de escenas/menu/asets/0-STATIC/2.png<>uid://cq2mg3fjkbemk::::res://Arbol de escenas/menu/asets/0-STATIC/3.png<>uid://0loos5sdivvd::::res://Arbol de escenas/menu/asets/0-STATIC/4.png<>uid://cxx2knm0003gk::::res://Arbol de escenas/menu/asets/0-STATIC/5.png<>uid://bhwiakms7i11g::::res://Arbol de escenas/menu/asets/0-STATIC/6.png<>uid://ciomjxr2iwaeb::::res://Arbol de escenas/menu/asets/0-STATIC/7.png<>uid://crf3et0uni44r::::res://Arbol de escenas/menu/asets/0-STATIC/8.png
+monitor.tscn::PackedScene::563380802069077939::1711486472::0::1::::<><>::uid://curiw5lfpsc4c::::res://Arbol de escenas/oficina/monitor/MONITOR_ANIMATION/1.png<>uid://dse2c0fxch86f::::res://Arbol de escenas/oficina/monitor/MONITOR_ANIMATION/2.png<>uid://5ivvbtpttx6g::::res://Arbol de escenas/oficina/monitor/MONITOR_ANIMATION/3.png<>uid://jbok5vjjth3b::::res://Arbol de escenas/oficina/monitor/MONITOR_ANIMATION/4.png<>uid://f4uyfybfna51::::res://Arbol de escenas/oficina/monitor/MONITOR_ANIMATION/5.png<>uid://83hf3jysh2rx::::res://Arbol de escenas/oficina/monitor/MONITOR_ANIMATION/6.png<>uid://blgiqdk7ku0k3::::res://Arbol de escenas/oficina/monitor/MONITOR_ANIMATION/7.png<>uid://cmm72fnjeghhm::::res://Arbol de escenas/oficina/monitor/MONITOR_ANIMATION/8.png<>uid://ymyryy6xc8ul::::res://Arbol de escenas/oficina/monitor/MONITOR_ANIMATION/9.png<>uid://bh650faksvan1::::res://Arbol de escenas/oficina/monitor/MONITOR_ANIMATION/10.png<>uid://bgbt8flmd8tol::::res://Arbol de escenas/oficina/monitor/MONITOR_ANIMATION/11.png
+::res://Arbol de escenas/oficina/monitor/MONITOR_ANIMATION/::1705198968
+1.png::CompressedTexture2D::6212239278315191236::1705198961::1705198964::1::::<><>::
+2.png::CompressedTexture2D::8432562999828406943::1705198961::1705198964::1::::<><>::
+3.png::CompressedTexture2D::2123492972275878504::1705198961::1705198964::1::::<><>::
+4.png::CompressedTexture2D::634633474897229405::1705198961::1705198964::1::::<><>::
+5.png::CompressedTexture2D::412068671711628014::1705198961::1705198965::1::::<><>::
+6.png::CompressedTexture2D::2374469850759487069::1705198962::1705198965::1::::<><>::
+7.png::CompressedTexture2D::3171398713366632852::1705198962::1705198967::1::::<><>::
+8.png::CompressedTexture2D::5641871467408983526::1705198962::1705198967::1::::<><>::
+9.png::CompressedTexture2D::1710793645759333655::1705198962::1705198967::1::::<><>::
+10.png::CompressedTexture2D::2943604717261781980::1705198961::1705198967::1::::<><>::
+11.png::CompressedTexture2D::2810830957496932395::1705198961::1705198968::1::::<><>::

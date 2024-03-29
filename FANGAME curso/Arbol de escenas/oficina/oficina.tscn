@@ -1,0 +1,458 @@
+[gd_scene load_steps=62 format=3 uid="uid://dmdx0s8chrgpo"]
+
+[ext_resource type="Texture2D" uid="uid://nparsilrclci" path="res://Arbol de escenas/oficina/assets/3-THE_OFFICE/1-OFFICE_TV_ON.png" id="1_t8mi0"]
+[ext_resource type="Script" path="res://Arbol de escenas/oficina/Oficina.gd" id="1_wyxk1"]
+[ext_resource type="Texture2D" uid="uid://dxpyvxvc78lgp" path="res://Arbol de escenas/oficina/assets/3-THE_OFFICE/RIGHT_LIGHT.png" id="2_fy56q"]
+[ext_resource type="Texture2D" uid="uid://ditxw2hb8jfda" path="res://Arbol de escenas/oficina/assets/3-THE_OFFICE/LEFT_LIGHT.png" id="2_k5fbl"]
+[ext_resource type="Texture2D" uid="uid://m0lu0qvmjmpb" path="res://Arbol de escenas/oficina/assets/3-THE_OFFICE/1-OFFICE_BONNIE.png" id="2_l3m2p"]
+[ext_resource type="Texture2D" uid="uid://doowpboh08d6e" path="res://Arbol de escenas/oficina/assets/3-THE_OFFICE/FAN/1.png" id="3_jpf2s"]
+[ext_resource type="Texture2D" uid="uid://c2lygb1jaubqo" path="res://Arbol de escenas/oficina/assets/3-THE_OFFICE/1-OFFICE.png" id="3_k1osu"]
+[ext_resource type="Texture2D" uid="uid://btr2lhhqi4gi5" path="res://Arbol de escenas/oficina/assets/3-THE_OFFICE/FAN/2.png" id="4_26m86"]
+[ext_resource type="Texture2D" uid="uid://drbeov21kxoja" path="res://Arbol de escenas/oficina/assets/3-THE_OFFICE/FAN/3.png" id="5_5vnob"]
+[ext_resource type="Texture2D" uid="uid://dr0nr0kugehtr" path="res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/LEFT/1.png" id="6_rc4t8"]
+[ext_resource type="Texture2D" uid="uid://c2bvbxnubovej" path="res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/LEFT/2.png" id="7_mqlvv"]
+[ext_resource type="Texture2D" uid="uid://rebniryqlome" path="res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/LEFT/3.png" id="8_kkqcf"]
+[ext_resource type="Texture2D" uid="uid://bqlg1oyhxx0w8" path="res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/LEFT/4.png" id="9_f62fc"]
+[ext_resource type="Texture2D" uid="uid://voufe5ctjobw" path="res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/LEFT/5.png" id="10_yjia8"]
+[ext_resource type="Texture2D" uid="uid://j1v4xa51dul0" path="res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/LEFT/6.png" id="11_y7p4s"]
+[ext_resource type="Texture2D" uid="uid://ddrhaiy22lde7" path="res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/LEFT/7.png" id="12_46nhy"]
+[ext_resource type="Texture2D" uid="uid://ki5ta4bw62kq" path="res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/LEFT/8.png" id="13_djmy5"]
+[ext_resource type="Texture2D" uid="uid://baeueqcx83ecw" path="res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/LEFT/9.png" id="14_m7qvq"]
+[ext_resource type="Texture2D" uid="uid://bilvoipdp08kg" path="res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/LEFT/10.png" id="15_odka2"]
+[ext_resource type="Texture2D" uid="uid://dllrwl3r305hf" path="res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/LEFT/11.png" id="16_5ud8q"]
+[ext_resource type="Texture2D" uid="uid://blf6ta35aq5aw" path="res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/LEFT/12.png" id="17_jyubu"]
+[ext_resource type="Texture2D" uid="uid://x7nepdog4cv0" path="res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/LEFT/13.png" id="18_l4odn"]
+[ext_resource type="Texture2D" uid="uid://drdbwkqthwgje" path="res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/LEFT/14.png" id="19_ifl26"]
+[ext_resource type="Texture2D" uid="uid://ch0xirycan8ij" path="res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/RIGHT/1.png" id="20_e35io"]
+[ext_resource type="Texture2D" uid="uid://0df3aymec1ym" path="res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/RIGHT/2.png" id="21_mw7xl"]
+[ext_resource type="Texture2D" uid="uid://bgwjx8nx70okf" path="res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/RIGHT/3.png" id="22_6w767"]
+[ext_resource type="Texture2D" uid="uid://e4gee7rv0jhq" path="res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/RIGHT/4.png" id="23_8vojf"]
+[ext_resource type="Texture2D" uid="uid://cfxrosfsfqftk" path="res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/RIGHT/5.png" id="24_2flvv"]
+[ext_resource type="Texture2D" uid="uid://bo1fw4qg2jmkt" path="res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/RIGHT/6.png" id="25_i4e3b"]
+[ext_resource type="Texture2D" uid="uid://yu3utc3p2anm" path="res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/RIGHT/7.png" id="26_q4eo2"]
+[ext_resource type="Texture2D" uid="uid://co6hct1247gvi" path="res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/RIGHT/8.png" id="27_bsxbt"]
+[ext_resource type="Texture2D" uid="uid://sg216axdmocv" path="res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/RIGHT/9.png" id="28_lmt4h"]
+[ext_resource type="Texture2D" uid="uid://cfjuryfmfnbu0" path="res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/RIGHT/10.png" id="29_acaan"]
+[ext_resource type="Texture2D" uid="uid://bqwmdwnpnddvh" path="res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/RIGHT/11.png" id="30_ldu6j"]
+[ext_resource type="Texture2D" uid="uid://c57djmaipwxhb" path="res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/RIGHT/12.png" id="31_8vvpe"]
+[ext_resource type="Texture2D" uid="uid://ctcfwkdx7q7vg" path="res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/RIGHT/13.png" id="32_wo3ub"]
+[ext_resource type="Texture2D" uid="uid://ci4mk1wdh547o" path="res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/RIGHT/14.png" id="33_8t158"]
+[ext_resource type="Texture2D" uid="uid://bs6am5g0cth1y" path="res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/BUTTONS/LEFT/1-STOPPED.png" id="34_qkwon"]
+[ext_resource type="Texture2D" uid="uid://dtn0xt2u851v4" path="res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/BUTTONS/LEFT/2-DOOR.png" id="35_jr87w"]
+[ext_resource type="Texture2D" uid="uid://cuh0t3ad6xeo4" path="res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/BUTTONS/RIGHT/1-STOPPED.png" id="36_g5eag"]
+[ext_resource type="Texture2D" uid="uid://u3xis6vy7371" path="res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/BUTTONS/LEFT/4-BOTH.png" id="37_bd64t"]
+[ext_resource type="Texture2D" uid="uid://d27g3mabs3xtp" path="res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/BUTTONS/RIGHT/2-DOOR.png" id="37_lhk7d"]
+[ext_resource type="AudioStream" uid="uid://chkeihlwduj3w" path="res://Arbol de escenas/oficina/assets/SFXBible_12478.wav" id="38_pb5xl"]
+[ext_resource type="AudioStream" uid="uid://dyg18drfhqpfp" path="res://Arbol de escenas/oficina/assets/ambience2.wav" id="39_iqfm6"]
+[ext_resource type="Texture2D" uid="uid://cm704j4ygxgxj" path="res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/BUTTONS/LEFT/3-LIGHT.png" id="39_n8wr4"]
+[ext_resource type="AudioStream" uid="uid://cnk0ljh2v7k0p" path="res://Arbol de escenas/oficina/assets/voiceover1c.wav" id="40_q1v57"]
+[ext_resource type="Texture2D" uid="uid://dciv8lb3gf38i" path="res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/BUTTONS/RIGHT/4-BOTH.png" id="41_6iy16"]
+[ext_resource type="Texture2D" uid="uid://10iprlt0eidg" path="res://Arbol de escenas/oficina/assets/3-THE_OFFICE/DOORS/BUTTONS/RIGHT/3-LIGHT.png" id="43_004nj"]
+[ext_resource type="PackedScene" uid="uid://bkh4k0thllw48" path="res://Arbol de escenas/oficina/controlAnim/control_anim.tscn" id="48_au6fk"]
+[ext_resource type="PackedScene" uid="uid://ud8c04slowa7" path="res://Arbol de escenas/oficina/mapa/mapa.tscn" id="49_rvytf"]
+[ext_resource type="PackedScene" uid="uid://ia52ghrpfo5h" path="res://Arbol de escenas/oficina/monitor/monitor.tscn" id="50_w0ksq"]
+[ext_resource type="Texture2D" uid="uid://c62vol2eaql8l" path="res://Arbol de escenas/oficina/mapa/0-FLIP.png" id="51_3ff3y"]
+[ext_resource type="Script" path="res://Arbol de escenas/oficina/IaBonie.gd" id="51_ubas8"]
+[ext_resource type="Script" path="res://Arbol de escenas/oficina/mapa/BtnCamara.gd" id="52_iconh"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_uycyv"]
+size = Vector2(727, 652)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_6shxq"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_l3m2p")
+}],
+"loop": true,
+"name": &"bonie",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_fy56q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_k1osu")
+}],
+"loop": true,
+"name": &"luzDer",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_k5fbl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_k1osu")
+}],
+"loop": true,
+"name": &"luzIzq",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_t8mi0")
+}],
+"loop": true,
+"name": &"oficina",
+"speed": 17.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_7ubo7"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_jpf2s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_26m86")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_5vnob")
+}],
+"loop": true,
+"name": &"default",
+"speed": 17.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_vy6jw"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_rc4t8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_mqlvv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_kkqcf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_f62fc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_yjia8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_y7p4s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_46nhy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_djmy5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_m7qvq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_odka2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_5ud8q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_jyubu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_l4odn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_ifl26")
+}],
+"loop": false,
+"name": &"default",
+"speed": 20.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_6u7a7"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("20_e35io")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_mw7xl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_6w767")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_8vojf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_2flvv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_i4e3b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_q4eo2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_bsxbt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_lmt4h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_acaan")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_ldu6j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_8vvpe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_wo3ub")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_8t158")
+}],
+"loop": false,
+"name": &"default",
+"speed": 20.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_0oi70"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("41_6iy16")
+}],
+"loop": true,
+"name": &"ambos",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("36_g5eag")
+}],
+"loop": true,
+"name": &"apagado",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("43_004nj")
+}],
+"loop": true,
+"name": &"luz",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("37_lhk7d")
+}],
+"loop": true,
+"name": &"puerta",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_xs26h"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("37_bd64t")
+}],
+"loop": true,
+"name": &"ambos",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("34_qkwon")
+}],
+"loop": true,
+"name": &"apagado",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("39_n8wr4")
+}],
+"loop": true,
+"name": &"luz",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("35_jr87w")
+}],
+"loop": true,
+"name": &"puerta",
+"speed": 5.0
+}]
+
+[node name="oficina" type="Node2D"]
+script = ExtResource("1_wyxk1")
+
+[node name="Camara" type="Node2D" parent="."]
+position = Vector2(-3, 3)
+
+[node name="Camera2D" type="Camera2D" parent="Camara"]
+texture_filter = 1
+position = Vector2(575, 326)
+position_smoothing_enabled = true
+position_smoothing_speed = 10.0
+
+[node name="Detectores" type="Node2D" parent="."]
+
+[node name="izq" type="Area2D" parent="Detectores"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Detectores/izq"]
+position = Vector2(134.5, 327)
+shape = SubResource("RectangleShape2D_uycyv")
+
+[node name="der" type="Area2D" parent="Detectores"]
+position = Vector2(-1, 0)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Detectores/der"]
+position = Vector2(1053, 328)
+shape = SubResource("RectangleShape2D_uycyv")
+
+[node name="Animaciones" type="Node2D" parent="."]
+
+[node name="oficina" type="AnimatedSprite2D" parent="Animaciones"]
+use_parent_material = true
+position = Vector2(573, 328.25)
+scale = Vector2(1.0525, 0.90625)
+sprite_frames = SubResource("SpriteFrames_6shxq")
+animation = &"oficina"
+
+[node name="ventilador" type="AnimatedSprite2D" parent="Animaciones"]
+position = Vector2(625, 366)
+scale = Vector2(1.02174, 0.90051)
+sprite_frames = SubResource("SpriteFrames_7ubo7")
+frame_progress = 0.995797
+
+[node name="puertaIzq" type="AnimatedSprite2D" parent="Animaciones"]
+position = Vector2(-76.5, 329)
+scale = Vector2(0.955157, 0.908333)
+sprite_frames = SubResource("SpriteFrames_vy6jw")
+
+[node name="puertaDer" type="AnimatedSprite2D" parent="Animaciones"]
+position = Vector2(1196.5, 324.75)
+scale = Vector2(0.896396, 0.901947)
+sprite_frames = SubResource("SpriteFrames_6u7a7")
+
+[node name="botones" type="Node2D" parent="."]
+
+[node name="botonIzq" type="Button" parent="botones"]
+offset_left = -245.0
+offset_top = 325.0
+offset_right = -206.0
+offset_bottom = 380.0
+
+[node name="botonDer" type="Button" parent="botones"]
+offset_left = 1334.0
+offset_top = 316.0
+offset_right = 1371.0
+offset_bottom = 369.0
+
+[node name="luzIzq" type="Button" parent="botones"]
+offset_left = -242.0
+offset_top = 404.0
+offset_right = -207.0
+offset_bottom = 456.0
+
+[node name="LuzDer" type="Button" parent="botones"]
+offset_left = 1331.0
+offset_top = 392.0
+offset_right = 1371.0
+offset_bottom = 449.0
+
+[node name="btnDer" type="AnimatedSprite2D" parent="botones"]
+position = Vector2(1356, 386)
+sprite_frames = SubResource("SpriteFrames_0oi70")
+animation = &"apagado"
+
+[node name="btnIzq" type="AnimatedSprite2D" parent="botones"]
+position = Vector2(-227, 395)
+sprite_frames = SubResource("SpriteFrames_xs26h")
+animation = &"apagado"
+
+[node name="Audios" type="Node2D" parent="."]
+
+[node name="puerta" type="AudioStreamPlayer" parent="Audios"]
+stream = ExtResource("38_pb5xl")
+
+[node name="ambiente" type="AudioStreamPlayer" parent="Audios"]
+stream = ExtResource("39_iqfm6")
+
+[node name="llamada" type="AudioStreamPlayer" parent="Audios"]
+stream = ExtResource("40_q1v57")
+
+[node name="Camaras" type="Node2D" parent="."]
+
+[node name="Monitor" parent="Camaras" instance=ExtResource("50_w0ksq")]
+visible = false
+position = Vector2(3, 7)
+
+[node name="controlAnim" parent="Camaras" instance=ExtResource("48_au6fk")]
+visible = false
+
+[node name="IaBonie" type="Node" parent="Camaras/controlAnim"]
+script = ExtResource("51_ubas8")
+
+[node name="Timer" type="Timer" parent="Camaras/controlAnim/IaBonie"]
+wait_time = 5.0
+autostart = true
+
+[node name="Mapa" parent="Camaras" instance=ExtResource("49_rvytf")]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Button" type="Button" parent="CanvasLayer"]
+offset_left = 332.0
+offset_top = 575.0
+offset_right = 940.0
+offset_bottom = 643.0
+icon = ExtResource("51_3ff3y")
+flat = true
+script = ExtResource("52_iconh")
+
+[node name="hora" type="Timer" parent="."]
+wait_time = 10.0
+autostart = true
+
+[connection signal="mouse_entered" from="Detectores/izq" to="." method="_on_izq_mouse_entered"]
+[connection signal="mouse_exited" from="Detectores/izq" to="." method="_on_izq_mouse_exited"]
+[connection signal="mouse_entered" from="Detectores/der" to="." method="_on_der_mouse_entered"]
+[connection signal="mouse_exited" from="Detectores/der" to="." method="_on_der_mouse_exited"]
+[connection signal="pressed" from="botones/botonIzq" to="." method="_on_boton_izq_pressed"]
+[connection signal="pressed" from="botones/botonDer" to="." method="_on_boton_der_pressed"]
+[connection signal="pressed" from="botones/luzIzq" to="." method="_on_luz_izq_pressed"]
+[connection signal="pressed" from="botones/luzIzq" to="Camaras/controlAnim/IaBonie" method="_on_luz_izq_pressed"]
+[connection signal="pressed" from="botones/LuzDer" to="." method="_on_luz_der_pressed"]
+[connection signal="timeout" from="Camaras/controlAnim/IaBonie/Timer" to="Camaras/controlAnim/IaBonie" method="Moverse"]
+[connection signal="pressed" from="Camaras/Mapa/CanvasLayer/stage" to="Camaras/controlAnim" method="_on_stage_pressed"]
+[connection signal="pressed" from="Camaras/Mapa/CanvasLayer/dinner" to="Camaras/controlAnim" method="_on_dinner_pressed"]
+[connection signal="pressed" from="Camaras/Mapa/CanvasLayer/pirateCove" to="Camaras/controlAnim" method="_on_pirate_cove_pressed"]
+[connection signal="pressed" from="Camaras/Mapa/CanvasLayer/westHall" to="Camaras/controlAnim" method="_on_west_hall_pressed"]
+[connection signal="pressed" from="Camaras/Mapa/CanvasLayer/westHall2" to="Camaras/controlAnim" method="_on_west_hall_2_pressed"]
+[connection signal="pressed" from="Camaras/Mapa/CanvasLayer/supplyClosset" to="Camaras/controlAnim" method="_on_supply_closset_pressed"]
+[connection signal="pressed" from="Camaras/Mapa/CanvasLayer/eastHall" to="Camaras/controlAnim" method="_on_east_hall_pressed"]
+[connection signal="pressed" from="Camaras/Mapa/CanvasLayer/eastHall2" to="Camaras/controlAnim" method="_on_east_hall_2_pressed"]
+[connection signal="pressed" from="Camaras/Mapa/CanvasLayer/BackStage" to="Camaras/controlAnim" method="_on_back_stage_pressed"]
+[connection signal="pressed" from="Camaras/Mapa/CanvasLayer/Kitchen" to="Camaras/controlAnim" method="_on_kitchen_pressed"]
+[connection signal="pressed" from="Camaras/Mapa/CanvasLayer/RestRooms" to="Camaras/controlAnim" method="_on_rest_rooms_pressed"]
+[connection signal="mouse_entered" from="CanvasLayer/Button" to="CanvasLayer/Button" method="_on_mouse_entered"]
+[connection signal="timeout" from="hora" to="Camaras/controlAnim/IaBonie" method="_on_hora_timeout"]
+
+[editable path="Camaras/Monitor"]
+[editable path="Camaras/controlAnim"]
+[editable path="Camaras/controlAnim/stage"]
+[editable path="Camaras/controlAnim/dining"]
+[editable path="Camaras/controlAnim/pirateCove"]
+[editable path="Camaras/controlAnim/westHall"]
+[editable path="Camaras/controlAnim/westHall2"]
+[editable path="Camaras/controlAnim/eastHall"]
+[editable path="Camaras/controlAnim/eastHall2"]
+[editable path="Camaras/controlAnim/BackStage"]
+[editable path="Camaras/controlAnim/RestRooms"]
+[editable path="Camaras/controlAnim/SuplyRoom"]
+[editable path="Camaras/controlAnim/Kitchen"]
+[editable path="Camaras/Mapa"]

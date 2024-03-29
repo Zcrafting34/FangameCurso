@@ -1,0 +1,37 @@
+[gd_scene load_steps=4 format=3 uid="uid://dmpig5wyt34ao"]
+
+[ext_resource type="Texture2D" uid="uid://dieefwpv2dydx" path="res://Arbol de escenas/oficina/controlAnim/assets/1-STAGE.png" id="1_smuk0"]
+[ext_resource type="Texture2D" uid="uid://2tkrkqjlhvxf" path="res://Arbol de escenas/oficina/controlAnim/assets/1-STAGE_BONNIE.png" id="2_7dajx"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_xtjvr"]
+animations = [{
+"frames": [],
+"loop": true,
+"name": &"bonie",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_smuk0")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_7dajx")
+}],
+"loop": true,
+"name": &"sinBonie",
+"speed": 5.0
+}]
+
+[node name="camara" type="Node2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(530, 322)
+scale = Vector2(1, 0.904167)
+sprite_frames = SubResource("SpriteFrames_xtjvr")
+animation = &"sinBonie"

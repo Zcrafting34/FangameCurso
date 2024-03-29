@@ -1,0 +1,281 @@
+[gd_scene load_steps=32 format=3 uid="uid://bkh4k0thllw48"]
+
+[ext_resource type="Script" path="res://Arbol de escenas/oficina/controlAnim/control_anim.gd" id="1_635vo"]
+[ext_resource type="PackedScene" uid="uid://dmpig5wyt34ao" path="res://Arbol de escenas/oficina/controlAnim/camara.tscn" id="1_a1uhx"]
+[ext_resource type="Texture2D" uid="uid://c3qp4d6u4at6q" path="res://Arbol de escenas/oficina/controlAnim/assets/2-DINING_AREA.png" id="2_n2r4i"]
+[ext_resource type="Texture2D" uid="uid://bh6fikbjusm3" path="res://Arbol de escenas/oficina/controlAnim/assets/3-PIRATE_COVE.png" id="3_54vyv"]
+[ext_resource type="Texture2D" uid="uid://c5yswjn8e8ec8" path="res://Arbol de escenas/oficina/controlAnim/assets/2-DINING_AREA_BONNIE.png" id="3_ujuyu"]
+[ext_resource type="Texture2D" uid="uid://fq358qq4ksh1" path="res://Arbol de escenas/oficina/controlAnim/assets/6-WEST_HALL_CORNER.png" id="4_g383h"]
+[ext_resource type="Texture2D" uid="uid://so8oosgl7bgo" path="res://Arbol de escenas/oficina/controlAnim/assets/2-DINING_AREA_BONNIE_2.0.png" id="4_qeobe"]
+[ext_resource type="Texture2D" uid="uid://cffktqhp4wucm" path="res://Arbol de escenas/oficina/controlAnim/assets/9-WEST_HALL.png" id="5_fhb4d"]
+[ext_resource type="Texture2D" uid="uid://ma6523qvcjjq" path="res://Arbol de escenas/oficina/controlAnim/assets/7-EAST_HALL_CORNER.png" id="6_1yrxq"]
+[ext_resource type="Texture2D" uid="uid://c6s4yufrqu8u" path="res://Arbol de escenas/oficina/controlAnim/assets/10-EAST_HALL.png" id="7_nlxaf"]
+[ext_resource type="Texture2D" uid="uid://cisf8e4xipsqt" path="res://Arbol de escenas/oficina/controlAnim/assets/6-WEST_HALL_CORNER_BONNIE.png" id="7_v8e1r"]
+[ext_resource type="Texture2D" uid="uid://qs1hrwe6k4sj" path="res://Arbol de escenas/oficina/controlAnim/assets/5-BACKSTAGE.png" id="8_6txc2"]
+[ext_resource type="Texture2D" uid="uid://60317s378u25" path="res://Arbol de escenas/oficina/controlAnim/assets/4-RESTROOMS.png" id="9_iba81"]
+[ext_resource type="Texture2D" uid="uid://cg7fs0cvyspvy" path="res://Arbol de escenas/oficina/controlAnim/assets/9-WEST_HALL_BONNIE.png" id="9_rc2fi"]
+[ext_resource type="PackedScene" uid="uid://ddlhr5ejcchpf" path="res://Arbol de escenas/oficina/monitor/estatica.tscn" id="10_jl3i2"]
+[ext_resource type="Texture2D" uid="uid://cnrfrj4qkyy05" path="res://Arbol de escenas/oficina/controlAnim/assets/9-WEST_HALL_BONNIE2.png" id="10_qtode"]
+[ext_resource type="Texture2D" uid="uid://dcsyjtbnf8i1e" path="res://Arbol de escenas/oficina/controlAnim/assets/9-WEST_HALL_BONNIE3.png" id="11_dtmsq"]
+[ext_resource type="Texture2D" uid="uid://bais2hgfq4peg" path="res://Arbol de escenas/oficina/controlAnim/assets/8-SUPPLY_ROOM.png" id="11_r7w8h"]
+[ext_resource type="Script" path="res://Arbol de escenas/oficina/monitor/estatica.gd" id="11_rdk72"]
+[ext_resource type="Texture2D" uid="uid://uj7o7lt43ioa" path="res://Arbol de escenas/oficina/controlAnim/assets/5-BACKSTAGE_BONNIE.png" id="15_qsqn8"]
+[ext_resource type="Texture2D" uid="uid://crdefwaxlojac" path="res://Arbol de escenas/oficina/controlAnim/assets/5-BACKSTAGE_BONNIE_2.0.png" id="16_5j54v"]
+[ext_resource type="Texture2D" uid="uid://bgqmpvxa4gr1e" path="res://Arbol de escenas/oficina/controlAnim/assets/8-SUPPLY_ROOM_BONNIE.png" id="19_cd6mn"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_g4sk4"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_ujuyu")
+}],
+"loop": true,
+"name": &"bonie",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_qeobe")
+}],
+"loop": true,
+"name": &"bonie2",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_n2r4i")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1btbc"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_54vyv")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1omij"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_v8e1r")
+}],
+"loop": true,
+"name": &"bonie",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_g383h")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_yf356"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_rc2fi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_qtode")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_dtmsq")
+}],
+"loop": true,
+"name": &"bonie",
+"speed": 15.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_fhb4d")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_mvw25"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_1yrxq")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_b2khv"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_nlxaf")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_rkcyg"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("15_qsqn8")
+}],
+"loop": true,
+"name": &"bonie",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("16_5j54v")
+}],
+"loop": true,
+"name": &"bonie2",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_6txc2")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_beaat"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_iba81")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_bo6c1"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("19_cd6mn")
+}],
+"loop": true,
+"name": &"bonie",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("11_r7w8h")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="controlAnim" type="Node2D"]
+script = ExtResource("1_635vo")
+
+[node name="stage" parent="." instance=ExtResource("1_a1uhx")]
+visible = false
+
+[node name="AnimatedSprite2D" parent="stage" index="0"]
+position = Vector2(530, 326)
+scale = Vector2(1, 0.866667)
+animation = &"default"
+
+[node name="dining" parent="." instance=ExtResource("1_a1uhx")]
+visible = false
+
+[node name="AnimatedSprite2D" parent="dining" index="0"]
+sprite_frames = SubResource("SpriteFrames_g4sk4")
+animation = &"default"
+
+[node name="pirateCove" parent="." instance=ExtResource("1_a1uhx")]
+visible = false
+
+[node name="AnimatedSprite2D" parent="pirateCove" index="0"]
+sprite_frames = SubResource("SpriteFrames_1btbc")
+animation = &"default"
+
+[node name="westHall" parent="." instance=ExtResource("1_a1uhx")]
+visible = false
+
+[node name="AnimatedSprite2D" parent="westHall" index="0"]
+sprite_frames = SubResource("SpriteFrames_1omij")
+animation = &"default"
+
+[node name="westHall2" parent="." instance=ExtResource("1_a1uhx")]
+visible = false
+
+[node name="AnimatedSprite2D" parent="westHall2" index="0"]
+sprite_frames = SubResource("SpriteFrames_yf356")
+animation = &"default"
+
+[node name="eastHall" parent="." instance=ExtResource("1_a1uhx")]
+visible = false
+
+[node name="AnimatedSprite2D" parent="eastHall" index="0"]
+sprite_frames = SubResource("SpriteFrames_mvw25")
+animation = &"default"
+
+[node name="eastHall2" parent="." instance=ExtResource("1_a1uhx")]
+visible = false
+
+[node name="AnimatedSprite2D" parent="eastHall2" index="0"]
+sprite_frames = SubResource("SpriteFrames_b2khv")
+animation = &"default"
+
+[node name="BackStage" parent="." instance=ExtResource("1_a1uhx")]
+visible = false
+
+[node name="AnimatedSprite2D" parent="BackStage" index="0"]
+sprite_frames = SubResource("SpriteFrames_rkcyg")
+animation = &"default"
+
+[node name="RestRooms" parent="." instance=ExtResource("1_a1uhx")]
+visible = false
+
+[node name="AnimatedSprite2D" parent="RestRooms" index="0"]
+sprite_frames = SubResource("SpriteFrames_beaat")
+animation = &"default"
+
+[node name="SuplyRoom" parent="." instance=ExtResource("1_a1uhx")]
+visible = false
+
+[node name="AnimatedSprite2D" parent="SuplyRoom" index="0"]
+sprite_frames = SubResource("SpriteFrames_bo6c1")
+animation = &"default"
+
+[node name="Kitchen" parent="." instance=ExtResource("1_a1uhx")]
+visible = false
+
+[node name="AnimatedSprite2D" parent="Kitchen" index="0"]
+visible = false
+
+[node name="estatica" parent="." instance=ExtResource("10_jl3i2")]
+frame_progress = 0.693401
+script = ExtResource("11_rdk72")
+
+[editable path="stage"]
+[editable path="dining"]
+[editable path="pirateCove"]
+[editable path="westHall"]
+[editable path="westHall2"]
+[editable path="eastHall"]
+[editable path="eastHall2"]
+[editable path="BackStage"]
+[editable path="RestRooms"]
+[editable path="SuplyRoom"]
+[editable path="Kitchen"]

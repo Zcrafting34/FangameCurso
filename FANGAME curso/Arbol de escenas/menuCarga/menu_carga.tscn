@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://b65ar32unxi28"]
+
+[ext_resource type="Texture2D" uid="uid://bmc8x5gc13t8y" path="res://Arbol de escenas/menuCarga/asets/2.5-START_TO_END/NEWSPAPER.png" id="1_rvkj0"]
+
+[node name="menu_carga" type="Node2D"]
+
+[node name="Newspaper" type="Sprite2D" parent="."]
+position = Vector2(578, 325.5)
+scale = Vector2(0.9, 0.904167)
+texture = ExtResource("1_rvkj0")

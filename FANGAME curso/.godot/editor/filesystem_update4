@@ -1,0 +1,8 @@
+res://Arbol de escenas/menu/menu.tscn
+res://Arbol de escenas/oficina/oficina.gdshader
+res://Arbol de escenas/menuCarga/menu_carga.tscn
+res://Arbol de escenas/oficina/oficina.tscn
+res://Arbol de escenas/oficina/controlAnim/control_anim.tscn
+res://Arbol de escenas/oficina/controlAnim/camara.tscn
+res://Arbol de escenas/oficina/IaBonie.gd
+res://Arbol de escenas/oficina/Oficina.gd

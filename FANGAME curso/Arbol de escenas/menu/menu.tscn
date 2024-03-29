@@ -1,0 +1,100 @@
+[gd_scene load_steps=13 format=3 uid="uid://b7ldv5ig6uv0j"]
+
+[ext_resource type="Script" path="res://Arbol de escenas/menu/Menu.gd" id="1_td47i"]
+[ext_resource type="Texture2D" uid="uid://cnwjflgknux4j" path="res://Arbol de escenas/menu/asets/2-MENU_TWITCHING/1.png" id="2_510qy"]
+[ext_resource type="Texture2D" uid="uid://dqrnvcoo1y8ls" path="res://Arbol de escenas/menu/asets/2-MENU_TWITCHING/2.png" id="3_i0a1g"]
+[ext_resource type="Texture2D" uid="uid://50kx7kg0i6ob" path="res://Arbol de escenas/menu/asets/2-MENU_TWITCHING/3.png" id="4_26a13"]
+[ext_resource type="Texture2D" uid="uid://bfmesojicf2da" path="res://Arbol de escenas/menu/asets/2-MENU_TWITCHING/4.png" id="5_m8n74"]
+[ext_resource type="PackedScene" uid="uid://ddlhr5ejcchpf" path="res://Arbol de escenas/oficina/monitor/estatica.tscn" id="6_ps6j3"]
+[ext_resource type="Texture2D" uid="uid://pa53p4gw75bo" path="res://Arbol de escenas/menu/asets/1-MAIN_TEXT/BUTTON01.png" id="14_tr8xr"]
+[ext_resource type="Texture2D" uid="uid://djc00c3nycy41" path="res://Arbol de escenas/menu/asets/1-MAIN_TEXT/BUTTON02.png" id="15_c1wmb"]
+[ext_resource type="Texture2D" uid="uid://d4lgocler1taj" path="res://Arbol de escenas/menu/asets/1-MAIN_TEXT/SET_.png" id="16_mmbl3"]
+[ext_resource type="AudioStream" uid="uid://cevahwye1lqf1" path="res://Arbol de escenas/menu/asets/darkness music.wav" id="17_rebes"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_wpvbp"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_510qy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_i0a1g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_26a13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_m8n74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_510qy")
+}],
+"loop": false,
+"name": &"movimiento",
+"speed": 7.0
+}]
+
+[sub_resource type="LabelSettings" id="LabelSettings_g7lb0"]
+font_size = 61
+
+[node name="Menu" type="Node2D"]
+script = ExtResource("1_td47i")
+
+[node name="animaciones" type="AnimatedSprite2D" parent="."]
+position = Vector2(576, 325)
+scale = Vector2(0.903125, 0.911111)
+sprite_frames = SubResource("SpriteFrames_wpvbp")
+animation = &"movimiento"
+frame = 4
+frame_progress = 1.0
+
+[node name="estatica" parent="." instance=ExtResource("6_ps6j3")]
+
+[node name="new_game" type="Button" parent="."]
+offset_left = 77.0
+offset_top = 390.0
+offset_right = 288.0
+offset_bottom = 431.0
+icon = ExtResource("14_tr8xr")
+
+[node name="continue" type="Button" parent="."]
+offset_left = 80.0
+offset_top = 474.0
+offset_right = 292.0
+offset_bottom = 516.0
+icon = ExtResource("15_c1wmb")
+
+[node name="Set" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(38, 412)
+texture = ExtResource("16_mmbl3")
+
+[node name="Set2" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(40, 497)
+texture = ExtResource("16_mmbl3")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 46.0
+offset_top = 45.0
+offset_right = 346.0
+offset_bottom = 306.0
+text = "5 NOCHES
+CON 
+ALFREDO"
+label_settings = SubResource("LabelSettings_g7lb0")
+
+[node name="tiempo" type="Timer" parent="."]
+wait_time = 10.0
+autostart = true
+
+[node name="audio" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("17_rebes")
+autoplay = true
+
+[connection signal="mouse_entered" from="new_game" to="." method="_on_new_game_mouse_entered"]
+[connection signal="mouse_exited" from="new_game" to="." method="_on_new_game_mouse_exited"]
+[connection signal="mouse_entered" from="continue" to="." method="_on_continue_mouse_entered"]
+[connection signal="mouse_exited" from="continue" to="." method="_on_continue_mouse_exited"]
+[connection signal="pressed" from="continue" to="." method="_on_continue_pressed"]
+[connection signal="timeout" from="tiempo" to="." method="_on_tiempo_timeout"]

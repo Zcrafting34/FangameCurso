@@ -1,0 +1,189 @@
+[gd_scene load_steps=14 format=3 uid="uid://ud8c04slowa7"]
+
+[ext_resource type="Texture2D" uid="uid://nojw6ny5w2eb" path="res://Arbol de escenas/oficina/mapa/1-MAP.png" id="1_qe1aa"]
+[ext_resource type="Texture2D" uid="uid://bqm5s8b2e28y" path="res://Arbol de escenas/oficina/mapa/CAM_BUTTONS/1-CAM 1A.png" id="2_su63b"]
+[ext_resource type="Texture2D" uid="uid://d000wut13pfjo" path="res://Arbol de escenas/oficina/mapa/CAM_BUTTONS/CAM_PRESSED2 (switch animation sequence).png" id="3_ya2ly"]
+[ext_resource type="Texture2D" uid="uid://cr1cwebfw2eqd" path="res://Arbol de escenas/oficina/mapa/CAM_BUTTONS/1-CAM 1B.png" id="4_mccdr"]
+[ext_resource type="Texture2D" uid="uid://cxdbvqy2mskrb" path="res://Arbol de escenas/oficina/mapa/CAM_BUTTONS/1-CAM 1C.png" id="5_fgnf4"]
+[ext_resource type="Texture2D" uid="uid://brkrfhr8ht1ak" path="res://Arbol de escenas/oficina/mapa/CAM_BUTTONS/2-CAM 2A.png" id="6_28een"]
+[ext_resource type="Texture2D" uid="uid://b6u508u2ov3n3" path="res://Arbol de escenas/oficina/mapa/CAM_BUTTONS/2-CAM 2B.png" id="7_vm1js"]
+[ext_resource type="Texture2D" uid="uid://cie86vcb4re51" path="res://Arbol de escenas/oficina/mapa/CAM_BUTTONS/3-CAM 3.png" id="8_uciht"]
+[ext_resource type="Texture2D" uid="uid://dpytc8e1tgtb3" path="res://Arbol de escenas/oficina/mapa/CAM_BUTTONS/4-CAM 4A.png" id="9_0sf56"]
+[ext_resource type="Texture2D" uid="uid://bwcmw3oax2fcj" path="res://Arbol de escenas/oficina/mapa/CAM_BUTTONS/4-CAM 4B.png" id="10_coy0k"]
+[ext_resource type="Texture2D" uid="uid://3caqej5jlulx" path="res://Arbol de escenas/oficina/mapa/CAM_BUTTONS/5-CAM 5.png" id="11_b4b2i"]
+[ext_resource type="Texture2D" uid="uid://dkrm6ojl88wlp" path="res://Arbol de escenas/oficina/mapa/CAM_BUTTONS/6-CAM 6.png" id="12_xtcwy"]
+[ext_resource type="Texture2D" uid="uid://dewbm0vhvhdgj" path="res://Arbol de escenas/oficina/mapa/CAM_BUTTONS/7-CAM 7.png" id="13_r1jtx"]
+
+[node name="Mapa" type="Node2D"]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+visible = false
+
+[node name="Mapa" type="Sprite2D" parent="CanvasLayer"]
+position = Vector2(932, 409)
+texture = ExtResource("1_qe1aa")
+
+[node name="stage" type="Button" parent="CanvasLayer"]
+offset_left = 894.0
+offset_top = 233.0
+offset_right = 933.0
+offset_bottom = 266.0
+icon = ExtResource("2_su63b")
+flat = true
+
+[node name="Sprite2D" type="Sprite2D" parent="CanvasLayer/stage"]
+visible = false
+modulate = Color(1, 1, 1, 0.658824)
+position = Vector2(18.5, 16.5)
+scale = Vector2(0.65, 0.825)
+texture = ExtResource("3_ya2ly")
+
+[node name="dinner" type="Button" parent="CanvasLayer"]
+offset_left = 834.0
+offset_top = 287.0
+offset_right = 873.0
+offset_bottom = 320.0
+icon = ExtResource("4_mccdr")
+flat = true
+
+[node name="Sprite2D" type="Sprite2D" parent="CanvasLayer/dinner"]
+visible = false
+modulate = Color(1, 1, 1, 0.658824)
+position = Vector2(18.5, 16.5)
+scale = Vector2(0.65, 0.825)
+texture = ExtResource("3_ya2ly")
+
+[node name="pirateCove" type="Button" parent="CanvasLayer"]
+offset_left = 778.0
+offset_top = 360.0
+offset_right = 817.0
+offset_bottom = 393.0
+icon = ExtResource("5_fgnf4")
+flat = true
+
+[node name="Sprite2D" type="Sprite2D" parent="CanvasLayer/pirateCove"]
+visible = false
+modulate = Color(1, 1, 1, 0.658824)
+position = Vector2(18.5, 16.5)
+scale = Vector2(0.65, 0.825)
+texture = ExtResource("3_ya2ly")
+
+[node name="westHall" type="Button" parent="CanvasLayer"]
+offset_left = 858.0
+offset_top = 474.0
+offset_right = 897.0
+offset_bottom = 507.0
+icon = ExtResource("6_28een")
+flat = true
+
+[node name="Sprite2D" type="Sprite2D" parent="CanvasLayer/westHall"]
+visible = false
+modulate = Color(1, 1, 1, 0.658824)
+position = Vector2(18.5, 16.5)
+scale = Vector2(0.65, 0.825)
+texture = ExtResource("3_ya2ly")
+
+[node name="westHall2" type="Button" parent="CanvasLayer"]
+offset_left = 857.0
+offset_top = 518.0
+offset_right = 896.0
+offset_bottom = 551.0
+icon = ExtResource("7_vm1js")
+flat = true
+
+[node name="Sprite2D" type="Sprite2D" parent="CanvasLayer/westHall2"]
+visible = false
+modulate = Color(1, 1, 1, 0.658824)
+position = Vector2(18.5, 16.5)
+scale = Vector2(0.65, 0.825)
+texture = ExtResource("3_ya2ly")
+
+[node name="supplyClosset" type="Button" parent="CanvasLayer"]
+offset_left = 769.0
+offset_top = 467.0
+offset_right = 808.0
+offset_bottom = 500.0
+icon = ExtResource("8_uciht")
+flat = true
+
+[node name="Sprite2D" type="Sprite2D" parent="CanvasLayer/supplyClosset"]
+visible = false
+modulate = Color(1, 1, 1, 0.658824)
+position = Vector2(18.5, 16.5)
+scale = Vector2(0.65, 0.825)
+texture = ExtResource("3_ya2ly")
+
+[node name="eastHall" type="Button" parent="CanvasLayer"]
+offset_left = 927.0
+offset_top = 474.0
+offset_right = 966.0
+offset_bottom = 507.0
+icon = ExtResource("9_0sf56")
+flat = true
+
+[node name="Sprite2D" type="Sprite2D" parent="CanvasLayer/eastHall"]
+visible = false
+modulate = Color(1, 1, 1, 0.658824)
+position = Vector2(18.5, 16.5)
+scale = Vector2(0.65, 0.825)
+texture = ExtResource("3_ya2ly")
+
+[node name="eastHall2" type="Button" parent="CanvasLayer"]
+offset_left = 919.0
+offset_top = 519.0
+offset_right = 958.0
+offset_bottom = 552.0
+icon = ExtResource("10_coy0k")
+flat = true
+
+[node name="Sprite2D" type="Sprite2D" parent="CanvasLayer/eastHall2"]
+visible = false
+modulate = Color(1, 1, 1, 0.658824)
+position = Vector2(18.5, 16.5)
+scale = Vector2(0.65, 0.825)
+texture = ExtResource("3_ya2ly")
+
+[node name="BackStage" type="Button" parent="CanvasLayer"]
+offset_left = 725.0
+offset_top = 321.0
+offset_right = 764.0
+offset_bottom = 354.0
+icon = ExtResource("11_b4b2i")
+flat = true
+
+[node name="Sprite2D" type="Sprite2D" parent="CanvasLayer/BackStage"]
+visible = false
+modulate = Color(1, 1, 1, 0.658824)
+position = Vector2(18.5, 16.5)
+scale = Vector2(0.65, 0.825)
+texture = ExtResource("3_ya2ly")
+
+[node name="Kitchen" type="Button" parent="CanvasLayer"]
+offset_left = 1061.0
+offset_top = 443.0
+offset_right = 1100.0
+offset_bottom = 476.0
+icon = ExtResource("12_xtcwy")
+flat = true
+
+[node name="Sprite2D" type="Sprite2D" parent="CanvasLayer/Kitchen"]
+visible = false
+modulate = Color(1, 1, 1, 0.658824)
+position = Vector2(18.5, 16.5)
+scale = Vector2(0.65, 0.825)
+texture = ExtResource("3_ya2ly")
+
+[node name="RestRooms" type="Button" parent="CanvasLayer"]
+offset_left = 1059.0
+offset_top = 322.0
+offset_right = 1098.0
+offset_bottom = 355.0
+icon = ExtResource("13_r1jtx")
+flat = true
+
+[node name="Sprite2D" type="Sprite2D" parent="CanvasLayer/RestRooms"]
+visible = false
+modulate = Color(1, 1, 1, 0.658824)
+position = Vector2(18.5, 16.5)
+scale = Vector2(0.65, 0.825)
+texture = ExtResource("3_ya2ly")
